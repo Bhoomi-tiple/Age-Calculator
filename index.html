@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Age Calculator </title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class = "container">
+        <h1> 🎂 Age Calculator</h1>
+        <p> Calculate your exact age in years months and days</p>
+        <div class="calculator-box">
+
+    <!-- Left Card -->
+    <div class="input-card">
+
+        <h2>Enter Details</h2>
+
+        <label for="name">Enter Your Name</label>
+        <input type="text"
+               id="name"
+               placeholder="Enter your name">
+
+        <label for="dob">Enter Your Date of Birth</label>
+        <input type="date" id="dob">
+
+        <button onclick="calculateAge()">
+            Calculate Age
+        </button>
+
+    </div>
+
+    <!-- Right Card -->
+    <div class="output-card">
+
+        <h2>Your Age</h2>
+
+        <div class="result">
+            <div class="age-icon">🎉</div>
+            <h2 id="output">
+        </h2>
+        </div>
+
+    </div>
+</div>
+</div>
+
+    <script src = "script.js"> </script>
+    
+</body>
+</html>
